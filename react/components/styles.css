@@ -1,0 +1,27 @@
+.button {
+  font-weight: bold;
+  background-color: #bb141b;
+  border: solid 1px #bb141b;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 2px;
+  width: 420px;
+}
+
+.button:hover {
+  font-weight: bold;
+  background-color: transparent;
+  border: solid 1px black;
+  font-size: 18px;
+  color: black;
+  border-radius: 2px;
+}
+
+.input__div {
+  width: 420px;
+  margin-bottom: 20px;
+}
+
+.title {
+  color: #da0c15;
+}
