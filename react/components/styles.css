@@ -5,7 +5,20 @@
   font-size: 18px;
   color: #fff;
   border-radius: 2px;
-  width: 420px;
+  width: 32%;
+}
+
+@media screen and (max-width: 768px) {
+  .button{
+    width: 59%;
+  }
+}
+
+
+@media screen and (max-width: 425px) {
+  .button{
+    width: 100%;
+  }
 }
 
 .button:hover {
@@ -18,7 +31,7 @@
 }
 
 .input__div {
-  width: 420px;
+  width: 32%;
   margin-bottom: 20px;
 }
 
